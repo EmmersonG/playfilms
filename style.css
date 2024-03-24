@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*cabeça alho*/
+
+header {
+    text-align: end;
+    padding: 0.1em 0;
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+    align-items: center;
+}
+
+#titulo{
+    text-align: center;
+    margin: 20px;
+    cursor: default;
+}
+
+header img {
+    transform: scale(50%)
+    /*height: 75px;*/
+}
+
+header img:hover{
+    cursor: pointer;
+}
+
+header button {
+    color: #dadada;
+    padding: 18px;
+    border-radius: 10px;
+    background-color: #414141;
+    text-align: end;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+header button:hover{
+    transform: scale(105%);
+    transition: 0.30s;
+}
+
+main{
+    margin-bottom:  55%;
+}
+
+/* corpo */
+
+body {
+    color: #dadada;
+    background-color: #0a0a0a;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main img{
+    cursor: pointer;
+    height: 10em;
+    border-radius: 100%;
+}
+
+#add img{
+    padding: 30%;
+    background-color: #2e2d2d;
+}
+
+#add img:hover{
+    padding: 30%;
+    background-color: #817f7f;
+}
+
+main img:hover{
+    transform: scale(110%);
+    transition: 0.32s;
+    border: solid 5px rgb(238, 238, 238);
+}
+
+.perfil {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil p {
+    padding: 0.3em;
+    font-size: large;
+    font-weight: 500;
+    margin: 15px;
+    cursor: default;
+}
